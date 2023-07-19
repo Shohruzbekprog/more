@@ -1,0 +1,114 @@
+.about-us {
+  display: flex;
+  justify-content: space-between;
+  .word__about {
+    h5 {
+      color: var(--dark-blue, #282938);
+      font-family: Poppins;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 32px;
+    }
+    h1 {
+      color: var(--dark-blue, #282938);
+      font-family: Poppins;
+      font-size: 54px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 74px;
+    }
+    p {
+      color: var(--dark-blue, #282938);
+      text-align: justify;
+      font-family: Poppins;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 28px;
+    }
+  }
+  .img__about {
+    padding-bottom: 126px;
+  }
+}
+
+.goal__father {
+  display: flex;
+  justify-content: space-evenly;
+  background: #f4f5f5;
+  padding: 96px 0;
+  .goal__first {
+    h1 {
+      color: var(--dark-blue, #282938);
+      font-family: Poppins;
+      font-size: 38px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 56px;
+      p {
+        color: var(--dark-blue, #282938);
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px;
+      }
+    }
+  }
+  .goal_second {
+    h1 {
+      color: var(--dark-blue, #282938);
+      font-family: Poppins;
+      font-size: 38px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 56px;
+    }
+    p {
+      color: var(--dark-blue, #282938);
+      font-family: Poppins;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 28px;
+    }
+  }
+}
+
+#meet {
+  background: var(--grey, #f4f6fc);
+}
+
+.father__meet {
+  padding: 256px 0;
+  .word__meet {
+    padding-bottom: 50px;
+  }
+  .meet {
+    padding: 12px 40px 16px 20px;
+    background: white;
+
+    img {
+      margin: 0 auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    h1 {
+      color: var(--b, #1d2130);
+      font-family: Poppins;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 36px;
+    }
+    p {
+      color: var(--b, #1d2130);                                                                                 font-family: Poppins;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 128px; 
+    }
+  }
+}
