@@ -12,41 +12,145 @@
 
 <body>
   <header>
-
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+      <div class="container-lg">
+        <img src="image/home/Logo.png" alt="">
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end vh-100" tabindex="-1" id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <img class="offcanvas-title" id="offcanvasNavbarLabel" src="image/home/Logo.png" alt="">
+            <button class="btn-close" type="button" class="btn-close" data-bs-dismiss="offcanvas"
+              aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about-us.html">About us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pricing.html">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="work.html">Work</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="blog.html">Blog</a>
+              </li>
+            </ul>
+            <button type="button" class="btn btn-outline-primary">Contact us</button>
+          </div>
+        </div>
+      </div>
+    </nav>
   </header>
   <main>
     <section id="work">
-<div class="container">
-  <div class="work_page">
-    <p>What we created</p>
-    <h1>Our Work Portfolio</h1>
-    <h5>We help teams create great digital products by providing them with tools and technology <br> to make the
-      design-to-code process universally accessible.</h5>
-      <div class="icon">
-        <img src="image/work/face.png" alt="">
-        <img src="image/work/twit.png" alt="">
-        <img src="image/work/insta.png" alt="">
-        <img src="image/work/in.png" alt="">
+      <div class="container">
+        <div class="work_page">
+          <p>What we created</p>
+          <h1>Our Work Portfolio</h1>
+          <h5>We help teams create great digital products by providing them with tools and technology <br> to make the
+            design-to-code process universally accessible.</h5>
+          <div class="icon">
+            <img src="image/work/face.png" alt="">
+            <img src="image/work/twit.png" alt="">
+            <img src="image/work/insta.png" alt="">
+            <img src="image/work/in.png" alt="">
+          </div>
+        </div>
       </div>
-  </div>
-</div>
     </section>
     <section id="ai">
       <div class="container">
-        <div class="design">
-          <ul>
-            <li><a href="">All</a></li>
-            <li><a href="">UI Design</a></li>
-            <li><a href="">Webflow Design</a></li>
-            <li><a href="">Figma Design</a></li>
-          </ul>
+        <div class="father-ai">
+          <div class="row gap">
+            <div class="col gap_c">
+              <div class="gap_c col-12 col-md-6">
+                <img src="image/work/Cover.png" alt="">
+                <h1>Template 1</h1>
+                <p>Apparently we had reached a great height in the atmosphere, for the sky was <br> a dead black, and the
+                  stars had ceased to twinkle.</p>
+                <a href="">View Portfolio -></a>
+              </div>
+              <div class="gap_c col-12 col-md-6">
+                <img src="image/work/ide.png" alt="">
+                <h1>Template 1</h1>
+                <p>Apparently we had reached a great height in the atmosphere, for the sky was <br> a dead black, and the
+                  stars had ceased to twinkle.</p>
+                <a href="">View Portfolio -></a>
+              </div>
+              <div class="gap_c col-12 col-md-6">
+                <img src="image/work/get.png" alt="">
+                <h1>Template 1</h1>
+                <p>Apparently we had reached a great height in the atmosphere, for the sky was <br> a dead black, and the
+                  stars had ceased to twinkle.</p>
+                <a href="">View Portfolio -></a>
+              </div>
+            <div class="gap_c col-12 col-md-6">
+              <img src="image/work/best.png" alt="">
+              <h1>Template 1</h1>
+              <p>Apparently we had reached a great height in the atmosphere, for the sky was <br> a dead black, and the
+                stars had ceased to twinkle.</p>
+              <a href="">View Portfolio -></a>
+            </div>
+            <div class="gap_c col-12 col-md-6">
+              <img src="image/work/hey.png" alt="">
+              <h1>Template 1</h1>
+              <p>Apparently we had reached a great height in the atmosphere, for the sky was <br> a dead black, and the
+                stars had ceased to twinkle.</p>
+              <a href="">View Portfolio -></a>
+            </div>
+            <div class="gap_c col-12 col-md-6">
+              <img src="image/work/run.png" alt="">
+              <h1>Template 1</h1>
+              <p>Apparently we had reached a great height in the atmosphere, for the sky was <br> a dead black, and the
+                stars had ceased to twinkle.</p>
+              <a href="">View Portfolio -></a>
+            </div>
+          </div>
         </div>
       </div>
     </section>
   </main>
-  <footer>
-
+  <footer id="foot">
+    <div class="container">
+      <div class="row father">
+        <div class="col child col-12 col-md-6">
+          <img src="image/home/Logo.png" alt="">
+          <p class="text-white-50">We are always open to discuss your project and <br> improve your online presence.</p>
+          <div class="card-fath">
+            <div class="card-1">
+              <h4>Email me at</h4>
+              <p>contact@website.com</p>
+            </div>
+            <div class="card-2">
+              <h4>Call us</h4>
+              <p>0927 6277 28525</p>
+            </div>
+          </div>
+        </div>
+        <div class="col child col-12 col-md-6 text-light">
+          <h4>Lets Talk!</h4>
+          <p class="text-white-50">We are always open to discuss your project, <br> improve your online presence and
+            help with your <br> UX/UI design challenges.</p>
+          <div class="img">
+            <img src="image/home/faceb.png" alt="">
+            <img src="image/home/twite.png" alt="">
+            <img src="image/home/instagr.png" alt="">
+            <img src="image/home/in.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
   </footer>
+  <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>

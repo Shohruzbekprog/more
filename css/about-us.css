@@ -1,3 +1,44 @@
+#building {
+  background: #1c1e53;
+}
+
+.navbar {
+  background: #1c1e53 !important;
+}
+.navbar a {
+  color: white;
+}
+.navbar a:hover {
+  color: #bbbbcb;
+}
+.navbar .btn {
+  color: white;
+  border: 1px solid black;
+  width: 145px;
+  height: 50px;
+  flex-shrink: 0;
+  border-radius: 41px;
+  border: 2px solid rgba(244, 246, 252, 0.2);
+}
+.navbar .btn:hover {
+  color: #bbbbcb;
+}
+.navbar .offcanvas {
+  background: #1c1e53 !important;
+}
+.navbar .offcanvas-body {
+  color: white;
+}
+.navbar .navbar-toggler {
+  color: white;
+  background: white;
+}
+
+#about {
+  padding-top: 152px;
+  padding-bottom: 7px;
+}
+
 .about-us {
   display: flex;
   justify-content: space-between;
@@ -27,8 +68,8 @@
   font-weight: 400;
   line-height: 28px;
 }
-.about-us .img__about {
-  padding-bottom: 126px;
+.about-us .img__about img {
+  width: 100%;
 }
 
 .goal__father {
@@ -69,6 +110,9 @@
   font-weight: 400;
   line-height: 28px;
 }
+.goal__father .images {
+  width: 100%;
+}
 
 #meet {
   background: var(--grey, #f4f6fc);
@@ -105,4 +149,51 @@
   font-style: normal;
   font-weight: 400;
   line-height: 128px;
+}
+
+#foot {
+  background: #1c1e53;
+  padding: 100px;
+}
+
+.father {
+  align-items: center;
+}
+.father .child .card-fath {
+  display: flex;
+  padding: 1px 1px;
+  background: var(--yellow, #fcd980);
+}
+.father .child .card-fath .card-1 {
+  padding-left: 50px;
+}
+.father .child .card-fath .card-1 h4 {
+  color: var(--dark-blue, #282938);
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 100;
+  line-height: 31px; /* 177.778% */
+}
+.father .child .card-fath .card-2 {
+  padding-left: 50px;
+}
+.father .child .img {
+  gap: 50px;
+}
+.father .child p {
+  color: var(--dark-blue, #282938);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 100;
+  line-height: 29px; /* 175% */
+}
+.father .child h3 {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 64px; /* 133.333% */
 }

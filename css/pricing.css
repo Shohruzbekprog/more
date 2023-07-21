@@ -1,6 +1,46 @@
+#building {
+  background: #1c1e53;
+}
+
+.navbar {
+  background: #1c1e53 !important;
+}
+.navbar a {
+  color: white;
+}
+.navbar a:hover {
+  color: #bbbbcb;
+}
+.navbar .btn {
+  color: white;
+  border: 1px solid black;
+  width: 145px;
+  height: 50px;
+  flex-shrink: 0;
+  border-radius: 41px;
+  border: 2px solid rgba(244, 246, 252, 0.2);
+}
+.navbar .btn:hover {
+  color: #bbbbcb;
+}
+.navbar .offcanvas {
+  background: #1c1e53 !important;
+}
+.navbar .offcanvas-body {
+  color: white;
+}
+.navbar .navbar-toggler {
+  color: white;
+  background: white;
+}
+
+#our {
+  padding: 128px 0;
+}
+
 .plan .plan__word {
-  padding-top: 128px;
-  padding-bottom: 64px;
+  padding-top: 50px;
+  text-align: center;
 }
 .plan .plan__word h1 {
   color: var(--dark-blue, #282938);
@@ -11,6 +51,7 @@
   line-height: 64px;
 }
 .plan .plan__word p {
+  padding-bottom: 64px;
   color: var(--dark-blue, #282938);
   text-align: center;
   font-family: Poppins;
@@ -21,13 +62,12 @@
 }
 
 .plan__card {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 12px;
+  gap: 100px;
+  align-items: center;
+  margin: 0 auto;
+  display: flex;
 }
 .plan__card .card__grid {
-  padding: 64px 141px 65px 48px;
-  flex-shrink: 0;
   border-radius: 12px;
   background: #f4f6fc;
 }
@@ -112,9 +152,62 @@
   background: #fcd980;
   transition: 1s;
 }
-
 .card__grid:hover {
   background: #1c1e53;
   color: white;
   transition: 1s;
+}
+.card__grid:hover p,
+.card__grid:hover h1,
+.card__grid:hover h3,
+.card__grid:hover h4,
+.card__grid:hover h6 {
+  color: white !important;
+}
+
+#foot {
+  background: #1c1e53;
+  padding: 100px;
+}
+
+.father {
+  align-items: center;
+}
+.father .child .card-fath {
+  display: flex;
+  padding: 1px 1px;
+  background: var(--yellow, #fcd980);
+}
+.father .child .card-fath .card-1 {
+  padding-left: 50px;
+}
+.father .child .card-fath .card-1 h4 {
+  color: var(--dark-blue, #282938);
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 100;
+  line-height: 31px; /* 177.778% */
+}
+.father .child .card-fath .card-2 {
+  padding-left: 50px;
+}
+.father .child .img {
+  gap: 50px;
+}
+.father .child p {
+  color: var(--dark-blue, #282938);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 100;
+  line-height: 29px; /* 175% */
+}
+.father .child h3 {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 64px; /* 133.333% */
 }
